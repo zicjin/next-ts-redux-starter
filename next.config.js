@@ -6,10 +6,6 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 const optimizedImages = require('next-optimized-images')
 const composePlugins = require('next-compose-plugins')
 
-if (typeof require !== 'undefined') {
-  require.extensions['.less'] = (file) => {}
-}
-
 const nextConfig = {
   // distDir: 'build',
   webpack: (config, options) => {

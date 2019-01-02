@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "next -p 8081",
+    "dev": "next -p 8082",
     "build": "next build",
     "start": "next start"
   },
