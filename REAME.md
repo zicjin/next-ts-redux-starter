@@ -12,3 +12,10 @@ We'll use the [create-react-app](https://github.com/facebookincubator/create-rea
 
 We assume that you're already using [Node.js](https://nodejs.org/) with [npm](https://www.npmjs.com/).
 You may also want to get a sense of [the basics with React](https://facebook.github.io/react/docs/hello-world.html).
+
+# start
+`
+cp config.simple.js config.js
+yarn
+yarn run dev
+`
