@@ -1,0 +1,16 @@
+div.clock {
+    padding: 15px;
+    display: inline-block;
+    color: var(--some-color2);
+    font: 50px menlo, monaco, monospace;
+    background-color: #000;
+}
+
+.light {
+    background-color: #999;
+}
+
+:root {
+    --some-color: #82fa58;
+    --some-color2: red;
+}

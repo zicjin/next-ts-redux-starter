@@ -1,0 +1,18 @@
+:root {
+  --conMaxWidth:1040px;
+}
+
+.container {
+  max-width: var(--conMaxWidth);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+
+@custom-media --single-viewport (max-width: 52em);
+
+.single_disable {
+  @media (--singleViewport) {
+    display: none;
+  }
+}
