@@ -11,6 +11,12 @@ interface IState {
 }
 
 class Hello extends Component<IProps, IState> {
+  // ts3.0 支持这样类型检查 https://stackoverflow.com/a/37282264
+  static defaultProps = {
+    name: 'dan',
+    enthusiasmLevel: 11
+  } // 或者在构造函数参数上设置默认props值
+
   constructor(props: IProps) {
     super(props);
     this.state = { currentEnthusiasm: props.enthusiasmLevel || 1 };
